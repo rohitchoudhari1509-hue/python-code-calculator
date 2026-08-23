@@ -1,0 +1,17 @@
+while True:
+  Num1=int(input("Enter first number:"))
+  Num2=int(input("Enter second number:"))
+  Operation=input("Enter operation(+,-,*,/):")
+  if Operation=="+":
+    print(Num1+Num2)
+  elif Operation=="-":
+    print(Num1-Num2)
+  elif Operation=="*":
+    print(Num1*Num2)
+  elif Operation=="/":
+    print(Num1/Num2)
+  else:
+    print("Error")
+    
+  print("Calculate again...")
+  
